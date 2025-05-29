@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>See 'N' Say Storymaker</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>🧠 See 'N' Say Storymaker 🎉</h1>
+
+  <div id="story-builder">
+    <div class="column" id="col-1"></div>
+    <div class="column" id="col-2"></div>
+    <div class="column" id="col-3"></div>
+    <div class="column" id="col-4"></div>
+    <div class="column" id="col-5"></div>
+  </div>
+
+  <button id="play-story" onclick="buildStory()">Play Story</button>
+
+  <p id="final-story"></p>
+
+  <!-- New Buttons -->
+  <div id="number-buttons">
+    <button class="num-btn">1</button>
+    <button class="num-btn">2</button>
+    <button class="num-btn">3</button>
+    <button class="num-btn">4</button>
+    <button class="num-btn">5</button>
+  </div>
+
+  <div id="color-buttons">
+    <button class="color-btn" style="background-color: red;"></button>
+    <button class="color-btn" style="background-color: blue;"></button>
+    <button class="color-btn" style="background-color: green;"></button>
+    <button class="color-btn" style="background-color: orange;"></button>
+    <button class="color-btn" style="background-color: purple;"></button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
